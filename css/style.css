@@ -1,0 +1,428 @@
+@font-face {
+    src: url('../fonts/NunitoSans-Regular.ttf');
+    font-family: 'NunitoSans-Regular';
+}
+
+@font-face {
+    src: url('../fonts/NunitoSans-Italic.ttf');
+    font-family: 'NunitoSans-Italic';
+}
+
+@font-face {
+    src: url('//fonts/YesevaOne-Regular.ttf');
+    font-family: 'YesevaOne-Regular';
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'NunitoSans-Regular';
+}
+
+.header {
+    background-color: #131313;
+    height: 83px;
+}
+
+.container-header {
+    max-width: 1256px;
+    margin: 0 auto;
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'NunitoSans-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+text-transform: uppercase;
+
+color: #E3B873;
+}
+
+.header-nav {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item {
+    margin-right: 47px;
+}
+
+.nav-item a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.header-phone {
+    font-family: 'NunitoSans-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+text-align: right;
+text-decoration-line: underline;
+
+color: #E3B873;
+}
+
+.button {
+background: #E3B873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+border-radius: 4px;
+font-family: 'NunitoSans-Italic';
+color: white;
+text-transform: uppercase;
+}
+
+.button-nav {
+padding: 13px 33px;
+}
+
+.hero {
+    background-image: url('../img/hero.png');
+    background-size: cover;
+    margin: 0 auto;
+    height: 707px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: -1;
+}
+
+.container-hero {
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+.title-h1 {
+margin: 0;
+padding-top: 194px;
+font-family: 'YesevaOne-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.text-hero {
+    font-family: 'NunitoSans-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+.button-hero1 {
+    font-family: 'NunitoSans-Italic';
+    padding: 20px 42px;
+    border: 0cm;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+}
+
+.button-hero2 {
+    font-family: 'NunitoSans-Italic';
+    padding: 19px 22px;
+    border: 1px solid #FFFFFF;
+    margin-left: 20px;
+  border-radius: 4px;
+  background-image: none; 
+  background: transparent;
+  color: white;
+}
+
+@media (max-width: 1250px) {
+    
+    .container-header {
+        max-width: 1256px;
+        margin: 0 auto;
+        height: 83px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-right: 10px;
+    }
+
+    .header-nav li {
+        padding: 0px;
+    }
+
+    .hero {
+        background-image: url('../img/hero.png');
+        background-size: cover;
+        margin: 0 auto;
+       
+        position: relative;
+        z-index: 1;}
+
+   
+
+
+
+}
+
+@media (max-width: 840px) {
+    .header-nav {
+        display: none;
+        
+    }
+}
+
+.section-black {
+    background-color: black;
+    height: 1074px;
+
+}
+
+.container-black{
+    width: 1172px;
+    padding-top: 107px;
+    margin: 0 auto;
+}
+
+.admiral{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+.admiral-item{
+    list-style: none;
+    margin-right: 60px;
+    font-family: 'YesevaOne-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.3);
+}
+
+.admiral-item:hover{
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.left-rigth{
+    padding-top: 53px;
+    display: flex;
+}
+
+.title-h2{
+    width: 253px;
+    margin: 0;
+    font-family: 'YesevaOne-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 37px;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+
+color: #E3B873;
+}
+
+.text-project {
+    width: 442px;
+    font-family: 'NunitoSans-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+
+.rigth-img {
+    padding-left: 50px;
+}
+
+.left-rigth2 {
+    display: flex;
+    margin-top: 42px;
+}
+
+.title-h3{
+    width: 213px;
+    font-family: 'YesevaOne-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+
+color: #E3B873;
+}
+
+.text-city-time {
+    width: 161px;
+
+    font-family: 'NunitoSans-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.vector-span {
+    margin-top: 50px;
+}
+
+.vector1 {
+    padding-right: 30px;
+}
+
+.vector2 {
+    padding-left: 30px;}
+
+.tochki {
+    width: 10px;
+    height: 10px;
+    margin: 10px 0;
+    background-color: white;
+border-radius: 30px;
+}
+@media (max-width: 1250px) {
+    .admiral {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        }
+
+    .rigth-img {
+            padding-left: 50px;
+            width: 500px;
+        }
+
+    .left-rigth2 {
+            display: flex;
+            margin-top: 0;
+    }
+
+    .title-h3{
+            width: 213px;
+            margin: 10px 0;
+            font-family: 'YesevaOne-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        
+        color: #E3B873;
+        }
+}
+
+.control {
+    margin-top: -324px;
+    text-align: center;
+}
+
+.container.control {
+    width: 1172px;
+    margin: 0 auto;
+    
+
+}
+
+.title-h3-white {
+    margin-top: 0px;
+    font-family: 'YesevaOne-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.camera-svg {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cameralr {
+    margin: 0 7px;
+}
+
+.control-img {
+    position: relative;
+    margin: 31px auto 0;
+    width: 817px;
+    height: 437px;
+    background-image: url('../img/MaskGroup.jpg');
+    z-index: 1;
+
+}
+
+.overlay-img {
+    position: absolute;
+    width: 817px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: -1;
+  
+}
+
+.batton-play {
+    margin-top: 174px;
+    width: 85px;
+    height: 85px;
+    background-color: #E3B873;
+    border-radius: 50%;
+    border: 0px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    text-align: center;
+}
+
+.control-hr {
+    margin-top: 62px;
+    width: 55px;
+    height: 1.54px;
+    border: none;
+    background-color: #E3B873;
+}
+
+.control-text {
+    margin: 34px auto 0;
+    width: 681px;
+    font-family: 'NunitoSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #363636;
+}
