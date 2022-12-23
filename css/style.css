@@ -79,6 +79,7 @@ border-radius: 4px;
 font-family: 'NunitoSans-Italic';
 color: white;
 text-transform: uppercase;
+border: 0;
 }
 
 .button-nav {
@@ -430,3 +431,60 @@ color: #FFFFFF;
 
     color: #363636;
 }
+
+.form {
+    width: 817px;
+    margin: 93px auto 0;
+}
+
+
+.block {
+    display: inline-block;
+    text-align: start;
+}
+     
+input, label {
+    display: block;
+}
+
+
+.text-label {
+    font-family: 'NunitoSans-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: rgba(54, 54, 54, 0.5);
+}
+
+.button-control {
+    padding: 18px 75px;
+}
+
+
+.first-checkbox {
+    margin-top: 39px;
+}
+.label-checkbox {
+    cursor: pointer;
+  }
+  .checkbox{
+    display: none;
+  }
+  .fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  }
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+  .checkbox:checked + .fake::before{
+    opacity: 1;
+  }
