@@ -169,6 +169,10 @@ color: #FFFFFF;
         padding: 0px;
     }
 
+    .button-nav {
+        padding: 5px 20px;
+        }
+
     .hero {
         background-image: url('../img/hero.png');
         background-size: cover;
