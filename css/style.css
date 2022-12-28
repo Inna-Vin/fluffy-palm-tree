@@ -822,14 +822,14 @@ color: #FFFFFF;
     margin: 0 auto;
     margin-top: 110px;
     background-image: url('../img/city-bkg1.png');
-    background-repeat: repeat;
+    background-repeat: repeat-x;
     background-position: bottom 0 left 0;
 }
 
 .container-clients {
     max-width: 1250px;
+    height: 1007px;
     margin: 0 auto;
-    padding-bottom: 354px;
 }
 
 .clients {
@@ -897,4 +897,49 @@ color: #959595;
     line-height: 23px;
     text-transform: uppercase;
 color: #FFFFFF;
+}
+
+.adress {
+    margin: 0 auto;
+    height: 954px;
+    background-color: rgba(24, 24, 24, 0.9);
+    background-image: url('../img/adres-bkg.png');
+    background-repeat: repeat;
+    background-position: bottom 0 right 0;
+    position: relative;
+    z-index: 1;
+}
+
+.container-adress {
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.div-form-adress {
+    background-color: black;
+    max-width: 883px;
+    margin: 0 auto;
+    padding-top: 34px;
+}
+
+.form-adress {
+    margin: 0 auto;
+    padding: 45px 181px 31px;
+}
+
+.input-adress {
+    padding: 8px 60px 8px 0;
+}
+
+.input-adress2 {
+    padding: 8px 360px 8px 0;
+}
+
+.block1{
+    margin-right: 58px;
+}
+
+.button-adress {
+    margin: 0 auto;
+    margin-top: 50px;
 }
