@@ -113,11 +113,19 @@ margin: 0;
 padding-top: 194px;
 font-family: 'YesevaOne-Regular';
 font-style: normal;
-font-weight: 400;
 font-size: 40px;
 line-height: 53px;
 text-transform: uppercase;
 color: #FFFFFF;
+}
+
+.text-style {
+    font-family: 'YesevaOne-Regular';
+font-style: normal;
+font-size: 40px;
+line-height: 53px;
+text-transform: uppercase;
+color: #E3B873;
 }
 
 .text-hero {
@@ -621,6 +629,12 @@ color: #FFFFFF;
 }
 
 @media (max-width: 1250px) {
+    .all-price {
+        display: flex;
+        margin-top: 31px;
+        justify-content: space-around;
+    }
+
     .price {
         background-repeat: no-repeat;
         padding-bottom: 200px;
@@ -635,6 +649,32 @@ color: #FFFFFF;
         margin-top: 294px;
         margin-left: 28px;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    }
+}
+
+@media (max-width: 970px) {
+    .all-price {
+        display: flex;
+        flex-direction: column;
+        margin-top: 31px;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .price {
+        background-repeat: no-repeat;
+        padding-bottom: 200px;
+        width: 392px;
+        height: 421px;
+    }
+
+    .redecorating-ul {
+        width: 330px;
+        height: 286px;
+        background-color: #FFFFFF;
+        margin-top: 294px;
+        margin-left: 28px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);  
     }
 }
 
@@ -669,7 +709,8 @@ color: #FFFFFF;
 
 .items-style{
     width: 42px;
-    height: 42px;
+    height: 35px;
+    padding-top: 7px;
     background-color: #E3B873;
     border: 8px solid #FFFFFF;
     border-radius: 30px;
@@ -762,6 +803,22 @@ line-height: 26px;
 color: #E3B873;
 }
 
+@media (max-width: 1004px) {
+    .box-form {
+        max-width: 1250px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .logo-pig {
+        display: flex;
+        margin-top: 38px;
+        justify-content: center;
+    }
+}
+
 .realize {
     margin-top: 242px;
     background-image: url('../img/we-realize.jpg');
@@ -816,6 +873,10 @@ color: #FFFFFF;
 
 .img-galery {
     margin-bottom: 38px;
+}
+
+.galery-slider {
+    display: none;
 }
 
 .our-clients {
@@ -913,6 +974,8 @@ color: #FFFFFF;
 .container-adress {
     margin: 0 auto;
     max-width: 1250px;
+    display: flex;
+    flex-direction: column;
 }
 
 .div-form-adress {
@@ -920,6 +983,7 @@ color: #FFFFFF;
     max-width: 883px;
     margin: 0 auto;
     padding-top: 34px;
+    margin-top: -242px;
 }
 
 .form-adress {
@@ -942,4 +1006,106 @@ color: #FFFFFF;
 .button-adress {
     margin: 0 auto;
     margin-top: 50px;
+}
+
+.title-h3-yellow {
+    margin-top: 52px;
+    font-family: 'YesevaOne-Regular';
+font-style: normal;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #E3B873;
+}
+
+.links {
+    margin: 0 auto;
+    display: flex;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.link {
+    width: 28px;
+    height: 23px;
+    padding-top: 5px;
+    background-color: #E3B873;
+    border-radius: 20px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.checkbox-adress {
+    margin-left: 120px;
+}
+
+.maps {
+    margin: 0 auto;
+    margin-top: 43px;
+    background-color: #C4C4C4;
+    max-width: 925px;
+    max-height: 465px;
+}
+
+.iframe {
+    max-width: 925px;
+}
+
+@media (max-width: 890px) {
+    .galery{
+        display: none;
+    }
+
+    .galery-slider {
+        width: 500px;
+        height: 450px;
+        background-image: url('../img/galery/image.png');
+        background-size: cover;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 270px;
+        justify-content: space-between;
+    }
+
+    .button-slide {
+        width: 36px;
+        height: 36px;
+        background-color: #E3B873;
+        border-radius: 20px;
+        border: 0;
+        margin-top: 200px;
+    }
+
+    .clients {
+        margin: 0 auto;
+        margin-top: 39px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .review-client3 {
+        display: none;
+    }
+
+    .form-adress {
+        margin: 0 auto;
+        padding: 45px 50px 31px;
+    }
+}
+
+.footer {
+    height: 133px;
+    background-color: black;
+}
+
+.container-footer {
+    max-width: 1256px;
+    height: 133px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
