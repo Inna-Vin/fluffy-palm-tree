@@ -275,6 +275,9 @@ line-height: 25px;
 text-transform: uppercase;
 color: #E3B873;
 }
+.title-h3-style {
+    padding-top: 20px;
+}
 
 .text-city-time {
     width: 161px;
@@ -1051,7 +1054,13 @@ color: #E3B873;
 }
 
 .iframe {
-    max-width: 925px;
+    width: 925px;
+    height: 465px;
+}
+@media (max-width: 930px) {
+    .iframe {
+        width: 760px;
+    }
 }
 
 @media (max-width: 890px) {
@@ -1108,4 +1117,276 @@ color: #E3B873;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 57px;
+    }
+    .container-header {
+        max-width: 341px;
+        height: 57px;
+    }
+    .header-nav {
+        display: none;
+    }
+    .header-phone {
+        text-decoration: none;
+    color: white;
+    }
+    .button-nav {
+        display: none;
+    }
+    .hero {
+        height: 476px;
+    }
+    .button-hero1 {
+    width: 338px;
+    margin-top: 30px;
+    }
+    .button-hero2 {
+        width: 338px;
+        margin: 0;
+        margin-top: 26px;
+    }
+    .container-hero {
+        max-width: 341px;
+        margin: 0 auto;
+    }
+    .title-h1 {
+        padding-top: 85px; 
+        font-style: normal;
+        font-size: 23px;
+        line-height: 30px;
+        }
+        .text-style {
+            font-family: 'YesevaOne-Regular';
+        font-style: normal;
+        font-size: 23px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #E3B873;
+        }
+        .text-hero {
+            font-family: 'NunitoSans-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        }
+        .container-black {
+            max-width: 341px;
+        }
+        .title-h2{
+        font-size: 22px;
+        line-height: 30px;
+        color: #E3B873;
+        }
+        .text-project {
+            width: 311px;
+            margin: 22px auto 0;
+        font-size: 11px;
+        line-height: 17px;
+        }
+        .left {
+            margin-top: 56px;
+            max-width: 340px;
+        }
+        .left-rigth {
+            padding: 0;
+            justify-content: center;
+        }
+        .vector-span {
+            display: none;
+        }
+        .title-h3 {
+            font-size: 14px;
+            width: 150px;
+        }
+        .title-h3-style {
+            padding-top: 0;
+        }
+        .text-city-time {
+            font-size: 11px;
+        }
+        .admiral {
+            display: none;
+        }
+        .rigth-img {
+            width: 340px;
+            margin-top: -150px;
+            padding: 0;
+        }
+        .city-time {
+            text-align: start;
+            
+        }
+        .area-cost {
+            text-align: start;
+            
+        }
+        .control {
+            margin-top: -850px;
+        }
+        .control-img {
+            max-width: 340px;
+            height: 207px;
+            background-size: cover;
+        }
+        .overlay-img {
+            max-width: 340px;
+        }
+        .batton-play {
+            margin-top: 84px;
+            width: 37px;
+            height: 37px;
+        }
+        .img-play {
+            width: 12px;
+        }
+        .control-hr {
+            margin-top: 28px;
+        }
+        .control-text {
+            margin: 21px auto 0;
+            max-width: 340px;
+            font-size: 11px;
+            line-height: 18px;
+            color: white;
+        }
+        .form {
+            max-width: 340px;
+            margin: 60px auto 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .text-label {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .input-1 {
+            border-bottom: 1px solid white;
+            color: white;
+            padding-right: 150px;
+            background-color: black;
+            text-align: start;
+        }
+        .block2 {
+            margin-top: 60px;
+        }
+        .first-checkbox {
+            order: 1;
+            color: white;
+            text-align: start;
+            font-size: 14px;
+            margin-top: 60px;
+        }
+        .button-order {
+            order: 2;
+            margin: 60px auto 0;
+        }
+        .button768px {
+            padding: 18px 150px;
+            border-radius: 0;
+        }
+        .container-repair {
+            margin-top: 58px;
+            max-width: 340px;
+            padding-bottom: 200px;
+        }
+        .price {
+            background-size: contain;
+            width: 340px;
+        }
+        .redecorating-ul {
+            width: 270px;
+            height: 240px;
+            margin-left: 0;
+        }
+        .title-h4 {
+            padding-bottom: 0;
+        }
+        .redecor-ul {
+            line-height: 22px;
+        }
+        .from {
+            width: 190px;
+            height: 30px;
+            font-size: 15px;
+            padding-top: 10px;
+        }
+        .section-form {
+            display: none;
+        }
+        .realize {
+            background-image: none;
+            background-color: black;
+        }
+        .container-realize {
+            max-width: 340px;
+            padding: 19px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .h2-realize {
+            margin-top: -200px;
+            text-align: center;
+        }
+        .ul-realize {
+            display: none;
+        }
+        .galery-slider {
+            width: 340px;
+            height: 242px;
+            margin-top: -131px;
+        }
+        .button-slide {
+            margin-top: 100px;
+        }
+        .our-clients {
+            display: none;
+        }
+        .div-form-adress {
+            max-width: 340px;
+            margin-top: -720px;
+        }
+        .form-adress {
+            padding: 30px 0;
+        }
+        .input-request {
+            border-bottom: 1px solid white;
+            color: white;
+            padding-right: 180px;
+            background-color: black;
+            text-align: start;
+        }
+        .checkbox-adress {
+            margin-left: 0;
+        }
+        .title-h3-yellow {
+            order: 1;
+            max-width: 340px;
+            margin: 50px auto;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .links {
+            order: 2;
+        }
+        .iframe {
+            width: 340px;
+            height: 255px;
+        }
+        .adress {
+            height: 350px;
+            background-image: none;
+            background-color: black;
+        }
+        .footer {
+            display: none;
+        }
+        .block1 {
+            margin-right: 0;
+        }
+       
 }
